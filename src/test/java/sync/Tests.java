@@ -27,4 +27,8 @@ public class Tests {
 	public void printObject2() {
 		Utils.printObject2();
 	}
+	@Test
+	public void printObject3() {
+		Utils.printObject3();
+	}
 }

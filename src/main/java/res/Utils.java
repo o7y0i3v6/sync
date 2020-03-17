@@ -43,4 +43,13 @@ public class Utils {
 		String str = ClassLayout.parseInstance(lockTest2).toPrintable();
 		System.out.println(str);
 	}
+	public static void printObject3() {
+		//传入一个对象，把布局打印出来。
+		String objectMessage = ClassLayout.parseInstance(lockTest0).toPrintable();
+		lockTest0.hashCode();
+		String hashMessage = Integer.toHexString(lockTest0.hashCode());
+		
+		System.out.println(hashMessage);
+		System.out.println(objectMessage);
+	}
 }
