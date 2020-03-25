@@ -2,8 +2,8 @@ package sync;
 
 import org.junit.Test;
 
-import res.LockTest0;
-import res.Utils;
+import ObjectDemo.LockTest0;
+import ObjectDemo.Utils;
 
 public class Tests {
 	static LockTest0 lockTest = new LockTest0();
@@ -11,6 +11,9 @@ public class Tests {
 	public void testLock0() {
 		Utils.lockTest0();
 	}
+	/**
+	 * ±æ¿‡—› æreentrantLock
+	 */
 	@Test
 	public void testLock1() {
 		Utils.lockTest1();
