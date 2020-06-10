@@ -19,7 +19,7 @@ public class Demo0 {
 			System.out.println("线程1执行了");
 			while(flag) {
 				/*
-				 *可以看到始终没有打印出,
+				 *可以看到始终没有打印出1,
 				 *说明在另一个线程里的赋值操作,
 				 *这里并没有感知到.
 				 */

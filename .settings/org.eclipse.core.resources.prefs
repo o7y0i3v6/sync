@@ -1,5 +1,8 @@
 eclipse.preferences.version=1
 encoding//src/main/java=UTF-8
+encoding//src/main/java/ObjectDemo=gbk
+encoding//src/main/java/ObjectDemo/LockTest0.java=gbk
+encoding//src/main/java/OrderDemo=gbk
 encoding//src/main/java/atomicity/RunTest.java=gbk
 encoding//src/main/java/concurrent/TestContainer.java=gbk
 encoding//src/main/resources=UTF-8

@@ -16,9 +16,8 @@ public class RunTest {
 
 	public static void main(String[] args) throws InterruptedException {
 		//从这里也可以看出,只要是一个类,始终共享一个全局变量.
-		for(int i=0;i<20;i++) {
-			int j=0;
-			AtomicityTest a = new AtomicityTest(j);
+		for(int i=0;i<10;i++) {
+			AtomicityTest a = new AtomicityTest();
 		}	
 	}
 }
